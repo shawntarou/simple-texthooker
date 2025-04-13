@@ -12,7 +12,7 @@ function deleteLastLine() {
 }
 
 function autoScroll() {
-    const LEEWAY = 500;
+    const LEEWAY = 300;
     let body = document.body;
     let offset = body.scrollHeight - body.offsetHeight;
     let scrollPos = (body.scrollTop + offset);
