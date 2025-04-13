@@ -1,0 +1,38 @@
+body {
+    background-color: #202020;
+    color: #BCBCBC;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+    font-family: "Noto Serif JP", "Meiryo", sans-serif;
+}
+
+.container {
+    position: fixed;
+    top: 3px;
+    right: 5px;
+    display: inline-block;
+}
+
+.container>div {
+    display: inline-block;
+}
+
+.buttons {
+    font-family: "Noto Sans JP";
+    background-color: rgba(25, 25, 25, 0.8);
+    color: #9d9d9d;
+    font-size: .5em;
+    line-height: 100%;
+    float: right;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    cursor: hand;
+}
